@@ -10,3 +10,8 @@ Collection of bioinformatic tools
 - [CRISP-ID](http://crispid.gbiomed.kuleuven.be) - [webtools] - CRISP-ID is a web application that allows the detection of the exact indel size and location of a CRISPR-Cas9 targeted region, based on direct Sanger sequencing. 
 - [CRISPResso2](https://github.com/pinellolab/CRISPResso2) - [webtools, commandLine] - Analysis of deep sequencing data for rapid and intuitive interpretation of genome editing experiments. 1-aligns sequencing reads to a reference sequence; 2-quantifies insertions, mutations and deletions to determine whether a read is modified or unmodified by genome editing; 3-summarizes editing results in intuitive plots and datasets.
 - [Microhomology-Predictor](http://www.rgenome.net/mich-calculator/) - [webtools] - Calculating microhomology-associated scores for all engineered nucleases [ZFNs, TALENs, RGENs (Cas9 RNA-guided endonucleases), etc.]
+
+# The third generation sequencing
+- [minimap2](https://github.com/lh3/minimap2) - [commandLine] - Minimap2 is a versatile sequence alignment program that aligns DNA or mRNA sequences against a large reference database.
+- [longshot](https://github.com/pjedge/longshot) - [commandLine] - 
+Longshot is a variant calling tool for diploid genomes using long error prone reads such as Pacific Biosciences (PacBio) SMRT and Oxford Nanopore Technologies (ONT). It takes as input an aligned BAM file and outputs a phased VCF file with variants and haplotype information. It can also genotype and phase input VCF files. It can output haplotype-separated BAM files that can be used for downstream analysis. Currently, it only calls single nucleotide variants (SNVs), but it can genotype indels if they are given in an input VCF.
