@@ -12,6 +12,7 @@ Collection of bioinformatic tools
 - [Microhomology-Predictor](http://www.rgenome.net/mich-calculator/) - [webtools] - Calculating microhomology-associated scores for all engineered nucleases [ZFNs, TALENs, RGENs (Cas9 RNA-guided endonucleases), etc.]
 
 # The third generation sequencing
-- [minimap2](https://github.com/lh3/minimap2) - [commandLine] - Minimap2 is a versatile sequence alignment program that aligns DNA or mRNA sequences against a large reference database.
+- [minimap2](https://github.com/lh3/minimap2) - [commandLine] - 
+Minimap2 is a versatile sequence alignment program that aligns DNA or mRNA sequences against a large reference database. Typical use cases include: (1) mapping PacBio or Oxford Nanopore genomic reads to the human genome; (2) finding overlaps between long reads with error rate up to ~15%; (3) splice-aware alignment of PacBio Iso-Seq or Nanopore cDNA or Direct RNA reads against a reference genome; (4) aligning Illumina single- or paired-end reads; (5) assembly-to-assembly alignment; (6) full-genome alignment between two closely related species with divergence below ~15%.
 - [longshot](https://github.com/pjedge/longshot) - [commandLine] - 
 Longshot is a variant calling tool for diploid genomes using long error prone reads such as Pacific Biosciences (PacBio) SMRT and Oxford Nanopore Technologies (ONT). It takes as input an aligned BAM file and outputs a phased VCF file with variants and haplotype information. It can also genotype and phase input VCF files. It can output haplotype-separated BAM files that can be used for downstream analysis. Currently, it only calls single nucleotide variants (SNVs), but it can genotype indels if they are given in an input VCF.
